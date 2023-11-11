@@ -1,0 +1,14 @@
+.company{
+    opacity: 0.8;
+    animation: animateImage 40s linear  infinite ;
+    transition: all 1s;
+
+}
+
+@keyframes animateImage {
+    
+50%{
+    transform: translateY(500px);
+}
+
+}
